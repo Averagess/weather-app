@@ -1,0 +1,16 @@
+GET http://localhost:3000/api/cityToLatLng
+Content-Type: application/json
+
+{
+  "city": "Helsinki"
+}
+
+###
+
+GET http://localhost:3000/api/weather
+Content-Type: application/json
+
+{
+  "lat": 60.1699,
+  "lng": 24.9384
+}
